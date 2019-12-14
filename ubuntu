@@ -37,6 +37,13 @@ body {
     stroke-miterlimit: 10;
 }
 
+.divider {
+    padding-top: 50px;
+    stroke: #a3be8c;
+    fill: none;
+    transition: fill 400ms ease-in-out 0s;
+}
+
 @media screen {
     .no-screen { display: none; }
 }
@@ -141,9 +148,9 @@ hr {
 }
 
 .title h1 {
-  font-size: 45px;
+  font-size: 30px;
   font-weight: normal;
-  margin-top: 50px;
+  margin-top: 13px;
   color: #88c0d0;
 }
 
@@ -230,7 +237,6 @@ hr {
 
 h2 {
   font-size: 22px;
-  font-weight: 100;
   letter-spacing: 1px;
 }
 
@@ -261,7 +267,6 @@ h3 {
 
 .no-decoration {
   text-decoration: none !important;
-  font-weight: 100;
   color: rgb(74, 104, 121);
 }
 
