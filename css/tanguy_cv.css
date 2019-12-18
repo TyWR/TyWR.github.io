@@ -143,8 +143,14 @@ hr {
 .title h1 {
   font-size: 45px;
   font-weight: normal;
-  margin-top: 50px;
+  margin-top: 70px;
   color: #88c0d0;
+}
+
+hr {
+    border: 1px solid #88c0d0;
+    margin-bottom: 50px;
+    width: 100%;
 }
 
 .section {
@@ -235,7 +241,8 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 25px;
+  font-weight: bolder !important;
 }
 
 /* Not for tablets & phones */
@@ -261,7 +268,7 @@ h3 {
 
 .no-decoration {
   text-decoration: none !important;
-  font-weight: 100;
+  font-weight: normal;
   color: rgb(74, 104, 121);
 }
 
@@ -307,4 +314,17 @@ code {
 
 .hobbies {
     color: #eceff4;
+}
+
+b, strong {
+    font-weight: 100;
+}
+
+#header-desc {
+    margin-top: 30px;
+}
+
+.portfolio-img img{
+    display: block;
+    margin: auto;
 }
