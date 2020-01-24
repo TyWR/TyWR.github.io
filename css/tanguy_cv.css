@@ -1,7 +1,7 @@
 body {
     background-color: rgb(36, 41, 51);
     line-height: 1.5;
-    font-family: "Rubik";
+    font-family: "Play";
     font-size: 16px;
 }
 
@@ -309,7 +309,7 @@ code {
     color: #8fbcbb;
     background-color: #3b4252;
     border-radius: 4px;
-    font-family: Ubuntu Mono;
+    font-family: Play;
 }
 
 .hobbies {
